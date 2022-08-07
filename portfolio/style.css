@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.profile_child{
+    width: 40%;    
+    background-color: rgba(255, 255, 255, .1);
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.pro_image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.pro_img{
+    width: 100%;
+    
+}
+
+.name{  
+    font-size: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    color: #F2F7FF;
+    padding-bottom: 10px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: Varela Round;
+    color: #F2F7FF;
+    font-weight: 100;
+    
+}
+.section_title{
+    font-size: 20px;
+    font-family: 'Carter One', cursive;
+    color: #000000;
+    font-weight: 100;
+    
+}
+
+.icons{
+    font-size: 30px;
+    color: #F2F7FF;
+    display: flex;
+    column-gap: 20px;
+}
+
+i{
+    cursor: pointer;
+}
+
+
+/* project css */
+
+.project{
+    
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color:  lightgray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.section_title{    
+    font-family: Varela Round;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+.works{
+    
+    width: 95%;
+    background-color: white;
+    padding: 20px; 
+    column-gap: 1%;
+    display: flex;  
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    row-gap: 2%;
+   
+   
+}
+
+.work{
+    height: 300px;
+    width: 24%;    
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.work_detail{
+    background-color: rgba(0, 0, 0, .8);
+    min-height: 0%;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Carter One', cursive;
+    font-weight: 100;
+    color: white; 
+    transition: .3s;
+    cursor: pointer;
+}
+
+.work_detail:hover{
+    min-height: 40%;
+}
+
+.link{
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+.work:nth-child(1){
+    background-image: url(RW.png);
+
+}
+
+.work:nth-child(2){
+    background-image: url(napier.jpeg);
+
+}
+
+.work:nth-child(3){
+    background-image: url(premier.jpg);
+
+}
+
+.work:nth-child(4){
+    background-image: url(ae.jpg);
+
+}
+
+.work:nth-child(5){
+    background-image: url(ps.png);
+
+}
+
+.work:nth-child(6){
+    background-image: url(travel.jpeg);
+
+}
+
+.work:nth-child(7){
+    background-image: url(event.jpg);
+
+}
+
+.work:nth-child(8){
+    background-image: url(gaming.jpg);
+
+}
